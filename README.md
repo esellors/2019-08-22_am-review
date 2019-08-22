@@ -1,2 +1,3 @@
-# 2019-08-22_am-review
-Created with CodeSandbox
+## A simple introduction to React
+
+Exploring React by building without redux

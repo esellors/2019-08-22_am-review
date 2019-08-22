@@ -1,0 +1,51 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: url('/../../question_mark_bg.jpg') repeat;
+}
+
+#container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#chat-window, #chat-input {
+	width: 90vw;
+}
+
+#chat-window {
+	height: 70vh;
+	padding: 0 15px;
+	background: papayawhip;
+	border: 1px dashed blue;
+	overflow: auto;
+}
+
+#chat-input {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+#chat-input input {
+	width: 90vw;
+	padding-left: 15px;
+}
+
+#chat-submit {
+	padding: 3px 15px;
+	position: absolute;
+	right: 0px;
+	background: transparent;
+	border: none;
+}
+
+#chat-submit:hover {
+	font-weight: bolder;
+	cursor: pointer;
+}
